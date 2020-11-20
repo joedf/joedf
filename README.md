@@ -1,4 +1,4 @@
-### Hey there 👋
+### Hi there 👋
 
 ![tetris.gif](tetris_small.gif)
 
