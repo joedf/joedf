@@ -1,6 +1,6 @@
 ### Hello there 👋
 
-![tetris.gif](tetris_sm.gif)
+![tetris.gif](tetris_small.gif)
 
 <!--
 **joedf/joedf** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
