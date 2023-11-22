@@ -1,4 +1,4 @@
-![Metrics](https://metrics.lecoq.io/joedf?template=classic&languages=1&languages.limit=8&languages.sections=most-used&languages.colors=github&languages.threshold=0%25&languages.indepth=false&languages.recent.load=300&languages.recent.days=14&config.timezone=America%2FToronto)
+![Metrics](metrics.classic.svg)
 ![tetris.gif](tetris_small.gif) 
 <a href="https://www.chess.com/game/ab8b6f4a-2c33-11ee-8f61-69a43701000f"><img src="chess.gif" width="200"></a>
 
