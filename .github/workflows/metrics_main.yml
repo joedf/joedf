@@ -12,9 +12,21 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      - name: main metrics
+        uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics.classic.svg
           base: header, repositories
           plugin_lines: yes
+          
+      - name: achievements-compact
+        with:
+          filename: metrics.plugin.achievements.compact.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_only: >-
+            polyglot, stargazer, member, maintainer, developer
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: X
