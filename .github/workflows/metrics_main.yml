@@ -21,7 +21,9 @@ jobs:
           plugin_lines: yes
           
       - name: achievements
-        uses: lowlighter/metrics@latest
+        # uses: lowlighter/metrics@latest
+        # achievements broken, for more info see https://github.com/lowlighter/metrics/issues/1706
+        uses: stalomeow/metrics@projects-v2
         with:
           filename: metrics.plugin.achievements.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -29,5 +31,5 @@ jobs:
           plugin_achievements: yes
           plugin_achievements_only: >-
             polyglot, stargazer, member, maintainer, developer
-          # plugin_achievements_display: compact
+          plugin_achievements_display: compact
           plugin_achievements_threshold: X
