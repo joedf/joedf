@@ -3,7 +3,7 @@
 <a href="https://www.chess.com/game/ab8b6f4a-2c33-11ee-8f61-69a43701000f"><img src="chess.gif" width="200"></a>
 
 ![Languages](metrics.plugin.languages.details.svg)
-![Achievements](metrics.plugin.achievements.svg)
+<!-- ![Achievements](metrics.plugin.achievements.svg) -->
 
 <!--
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=joedf&layout=compact)](https://github.com/anuraghazra/github-readme-stats)

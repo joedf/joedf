@@ -31,18 +31,18 @@ jobs:
             html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell,
             gnuplot
           plugin_languages_details: bytes-size, percentage
-          plugin_languages_limit: 4
+          plugin_languages_limit: 6
           
-      - name: achievements
-        # uses: lowlighter/metrics@latest
-        # achievements broken, for more info see https://github.com/lowlighter/metrics/issues/1706
-        uses: stalomeow/metrics@projects-v2
-        with:
-          filename: metrics.plugin.achievements.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_achievements: yes
-          plugin_achievements_only: >-
-            polyglot, stargazer, member, maintainer, developer
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: X
+      # - name: achievements
+      #   # uses: lowlighter/metrics@latest
+      #   # achievements broken, for more info see https://github.com/lowlighter/metrics/issues/1706
+      #   uses: stalomeow/metrics@projects-v2
+      #   with:
+      #     filename: metrics.plugin.achievements.svg
+      #     token: ${{ secrets.METRICS_TOKEN }}
+      #     base: ""
+      #     plugin_achievements: yes
+      #     plugin_achievements_only: >-
+      #       polyglot, stargazer, member, maintainer, developer
+      #     plugin_achievements_display: compact
+      #     plugin_achievements_threshold: X
