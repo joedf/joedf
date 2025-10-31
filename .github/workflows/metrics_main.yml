@@ -31,6 +31,7 @@ jobs:
             html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell,
             gnuplot, roff
           plugin_languages_details: bytes-size, percentage
+          plugin_languages_skipped: joedf/LuaBuilds
           plugin_languages_limit: 6
           
       # - name: achievements
